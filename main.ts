@@ -1,3 +1,4 @@
+// Entry point: copies summary.txt to the output directory.
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs"
 import { dirname, join } from "node:path"
 import { fileURLToPath } from "node:url"
